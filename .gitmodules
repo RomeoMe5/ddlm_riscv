@@ -3,4 +3,4 @@
 	url = https://github.com/fpgacademy/DESim
 [submodule "new_lab_13/schoolRISCV"]
 	path = new_lab_13/schoolRISCV
-	url = https://github.com/zhelnio/schoolRISCV
+	url = https://github.com/zhelnio/schoolRISCV/
