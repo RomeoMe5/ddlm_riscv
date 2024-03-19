@@ -5,7 +5,7 @@ md sim
 cd sim
 
 rem compile verilog files for simulation
-iverilog -s testbench ..\testbench.v ..\..\lab3.v 
+iverilog -s testbench ..\testbench.v ..\..\pri_enc_if.v 
 
 rem run the simulation
 vvp -la.lst -n a.out -vcd
