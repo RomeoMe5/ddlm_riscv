@@ -1,5 +1,5 @@
 [submodule "new_lab_13"]
-	path = new_lab_13
+	path = new_lab_13/schoolRISCV
 	url = https://github.com/zhelnio/schoolRISCV/
 [submodule "new_lab_02/DESim"]
 	path = new_lab_02/DESim
