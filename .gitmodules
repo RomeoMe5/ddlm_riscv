@@ -1,6 +1,6 @@
 [submodule "new_lab_13"]
 	path = new_lab_13
-	url = git@github.com:zhelnio/schoolRISCV.git
+	url = https://github.com/zhelnio/schoolRISCV/
 [submodule "new_lab_02/DESim"]
 	path = new_lab_02/DESim
-	url = git@github.com:fpgacademy/DESim.git
+	url = https://github.com/fpgacademy/DESim
