@@ -6,9 +6,9 @@ set_global_assignment -name PROJECT_OUTPUT_DIRECTORY  .
 set_global_assignment -name TOP_LEVEL_ENTITY          de10_lite
 
 set_global_assignment -name SEARCH_PATH  ../
-set_global_assignment -name SEARCH_PATH  ../../
+set_global_assignment -name SEARCH_PATH  ../../../
 
-set_global_assignment -name VERILOG_FILE ../../sr_latch.v
+set_global_assignment -name VERILOG_FILE ../../../sr_latch.v
 set_global_assignment -name VERILOG_FILE ../de10_lite.v
 
 set_global_assignment -name SDC_FILE     ../de10_lite.sdc
