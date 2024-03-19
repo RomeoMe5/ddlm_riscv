@@ -23,4 +23,4 @@ set_instance_assignment -name IO_STANDARD "3.3 V SCHMITT TRIGGER" -to KEY
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LED*
 
 # project files
-
+set_global_assignment -name BDF_FILE logic_circuit.bdf
