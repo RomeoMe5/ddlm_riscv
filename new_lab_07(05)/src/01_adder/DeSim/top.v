@@ -4,6 +4,6 @@ module top (SW, LEDR);
 
     output wire [9:0] LEDR;     // DE-series LEDs   
 
-    lab5 adder (SW[9:0], LEDR[9:0]);
+    external_adder dut (SW[9:0], LEDR[9:0]);
 
 endmodule

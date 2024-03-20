@@ -5,7 +5,7 @@ module top (KEY, SW, LEDR);
     
     output wire [9:0] LEDR;     // DE-series LEDs   
 
-    lab5 lab5 (KEY[1:0], SW[9:0], LEDR[9:0]);
+    external_comparator dut (KEY[1:0], SW[9:0], LEDR[9:0]);
 
 endmodule
 

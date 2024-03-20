@@ -6,6 +6,6 @@ module top (CLOCK_50, KEY, SW, LEDR);
     
     output wire [9:0] LEDR;     // DE-series LEDs   
 
-    lab5 lab5 (CLOCK_50, KEY[1:0], SW[9:0], LEDR[9:0]);
+    external_two_level_carry_lookahead_adder dut (CLOCK_50, KEY[1:0], SW[9:0], LEDR[9:0]);
 
 endmodule
