@@ -262,7 +262,7 @@ set_location_assignment PIN_AA2 -to GPIO[35]
 set_global_assignment -name SDC_FILE de10_lite.sdc
 
 set_global_assignment -name VERILOG_FILE ../de10_lite.v
-set_global_assignment -name VERILOG_FILE ../../pmod_als.v
-set_global_assignment -name VERILOG_FILE ../../register.v
-set_global_assignment -name VERILOG_FILE ../../register_we.v
-set_global_assignment -name VERILOG_FILE ../../../common/synthesis/hex_display.v
+set_global_assignment -name VERILOG_FILE ../../../pmod_als.v
+set_global_assignment -name VERILOG_FILE ../../../register.v
+set_global_assignment -name VERILOG_FILE ../../../register_we.v
+set_global_assignment -name VERILOG_FILE ../../../../common/synthesis/hex_display.v

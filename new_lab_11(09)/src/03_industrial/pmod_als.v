@@ -1,6 +1,5 @@
 /*
  * Digital Design Lab Manual
- * Lab #9
  *
  * Copyright(c) 2017 Stanislav Zhelnio 
  *
