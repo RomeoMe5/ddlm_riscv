@@ -1,8 +1,8 @@
 set_global_assignment -name FAMILY "MAX 10"
 set_global_assignment -name DEVICE 10M50DAF484C7G
-set_global_assignment -name TOP_LEVEL_ENTITY lab8_4
+set_global_assignment -name TOP_LEVEL_ENTITY mealy
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
-set_global_assignment -name VERILOG_FILE ../../lab8_4.v
+set_global_assignment -name VERILOG_FILE ../../../mealy.v
 #============================================================
 # KEY
 #============================================================

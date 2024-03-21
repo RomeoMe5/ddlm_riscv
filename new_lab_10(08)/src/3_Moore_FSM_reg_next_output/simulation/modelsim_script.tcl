@@ -3,7 +3,7 @@
 vlib work
 
 # compile all the Verilog sources
-vlog  ../testbench.v ../../lab8_3.v
+vlog  ../testbench.v ../../moore_reg_next_out.v
 
 # open the testbench module for simulation
 vsim work.testbench

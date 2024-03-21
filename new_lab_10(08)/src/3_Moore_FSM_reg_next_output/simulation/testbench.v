@@ -12,9 +12,9 @@ module testbench;
 	wire [1:0] state;
 
     // creating the instance of the module we want to test
-    //  lab8_3 - module name
+    //  moore_reg_next_out - module name
     //  dut  - instance name ('dut' means 'device under test')
-    lab8_3 dut (clock, reset_n, enable, a, y);
+    moore_reg_next_out dut (clock, reset_n, enable, a, y);
     assign state = dut.state;
 	
 initial 

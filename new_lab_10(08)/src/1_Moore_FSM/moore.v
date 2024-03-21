@@ -1,4 +1,4 @@
-module lab8_4
+module moore
 (
     input  clock,
     input  reset_n,
@@ -7,7 +7,7 @@ module lab8_4
     output y
 );
 
-    parameter [1:0] S0 = 2'b00, S1 = 2'b01, S2 = 2'b11, S3 = 2'b10;
+    parameter [1:0] S0 = 0, S1 = 1, S2 = 2;
 
     reg [1:0] state, next_state;
 
@@ -26,27 +26,21 @@ module lab8_4
         
         S0:
             if (a)
-                next_state = S0;
-            else
                 next_state = S1;
+            else
+                next_state = S0;
 
         S1:
             if (a)
-                next_state = S1;
-            else
                 next_state = S2;
+            else
+                next_state = S1;
 
         S2:
             if (a)
                 next_state = S0;
             else
-                next_state = S3;
-
-        S3:
-            if (a)
                 next_state = S2;
-            else
-                next_state = S0;
 
         default:
 
@@ -56,6 +50,6 @@ module lab8_4
 
     // Output logic based on current state
 
-    assign y = (a & state == S1);
+    assign y = (state == S2 || state == S1);
 
 endmodule

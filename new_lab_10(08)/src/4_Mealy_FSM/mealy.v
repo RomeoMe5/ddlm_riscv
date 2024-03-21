@@ -1,13 +1,13 @@
-module lab8_2
+module mealy
 (
     input  clock,
     input  reset_n,
     input  enable,
     input  a,
-    output reg    y
+    output y
 );
 
-    parameter [1:0] S0 = 0, S1 = 1, S2 = 2;
+    parameter [1:0] S0 = 2'b00, S1 = 2'b01, S2 = 2'b11, S3 = 2'b10;
 
     reg [1:0] state, next_state;
 
@@ -26,21 +26,27 @@ module lab8_2
         
         S0:
             if (a)
-                next_state = S1;
-            else
                 next_state = S0;
+            else
+                next_state = S1;
 
         S1:
             if (a)
-                next_state = S2;
-            else
                 next_state = S1;
+            else
+                next_state = S2;
 
         S2:
             if (a)
                 next_state = S0;
             else
+                next_state = S3;
+
+        S3:
+            if (a)
                 next_state = S2;
+            else
+                next_state = S0;
 
         default:
 
@@ -50,12 +56,6 @@ module lab8_2
 
     // Output logic based on current state
 
-    always @ (posedge clock)
-        case (state)
-			S0: y <= 0;
-			S1: y <= 1;
-			S2: y <= 1;
-			default: y <= 0;
-        endcase
+    assign y = (a & state == S1);
 
 endmodule

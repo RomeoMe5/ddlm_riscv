@@ -1,10 +1,10 @@
-module lab8_1
+module moore_reg_next_out
 (
     input  clock,
     input  reset_n,
     input  enable,
     input  a,
-    output y
+    output reg    y
 );
 
     parameter [1:0] S0 = 0, S1 = 1, S2 = 2;
@@ -50,6 +50,21 @@ module lab8_1
 
     // Output logic based on current state
 
-    assign y = (state == S2 || state == S1);
-
+    always @ (posedge clock or negedge reset_n)
+    begin
+        if (! reset_n)
+            y <= 0;
+        else if (enable)
+        begin
+            y <= 1;
+            case (state)
+            S0:
+                if (!a) 
+                    y <= 0;
+            S2:
+                if (a)
+                    y <= 0;
+            endcase
+        end
+    end
 endmodule

@@ -12,9 +12,9 @@ module testbench;
 	wire [1:0] state;
 
     // creating the instance of the module we want to test
-    //  lab8_4 - module name
+    //  mealy - module name
     //  dut  - instance name ('dut' means 'device under test')
-    lab8_4 dut (clock, reset_n, enable, a, y);
+    mealy dut (clock, reset_n, enable, a, y);
     assign state = dut.state;
 	
 initial 

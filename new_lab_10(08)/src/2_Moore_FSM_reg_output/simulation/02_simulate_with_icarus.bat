@@ -5,7 +5,7 @@ md sim
 cd sim
 
 rem compile verilog files for simulation
-iverilog -s testbench ..\testbench.v ..\lab8_2.v 
+iverilog -s testbench ..\testbench.v ..\moore_reg_out.v 
 
 rem run the simulation
 vvp -la.lst -n a.out -vcd

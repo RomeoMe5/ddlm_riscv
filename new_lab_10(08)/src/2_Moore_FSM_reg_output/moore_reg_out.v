@@ -1,4 +1,4 @@
-module lab8_3
+module moore_reg_out
 (
     input  clock,
     input  reset_n,
@@ -50,21 +50,12 @@ module lab8_3
 
     // Output logic based on current state
 
-    always @ (posedge clock or negedge reset_n)
-    begin
-        if (! reset_n)
-            y <= 0;
-        else if (enable)
-        begin
-            y <= 1;
-            case (state)
-            S0:
-                if (!a) 
-                    y <= 0;
-            S2:
-                if (a)
-                    y <= 0;
-            endcase
-        end
-    end
+    always @ (posedge clock)
+        case (state)
+			S0: y <= 0;
+			S1: y <= 1;
+			S2: y <= 1;
+			default: y <= 0;
+        endcase
+
 endmodule
