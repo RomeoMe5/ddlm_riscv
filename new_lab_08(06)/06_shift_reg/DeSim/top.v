@@ -5,7 +5,7 @@ module top (SW, KEY, LEDR);
 
     output wire [9:0] LEDR;     // DE-series LEDs   
 
-    shift_reg lab6 (KEY[0], SW[0], KEY[2], KEY[3], LEDR[7:0], LEDR[9]);
+    shift_reg dut (KEY[0], SW[0], KEY[2], KEY[3], LEDR[7:0], LEDR[9]);
  
 endmodule
 

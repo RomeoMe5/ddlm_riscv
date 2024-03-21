@@ -16,4 +16,4 @@ cd..
 copy synthesis\*.v DeSim\Project
 
 cd..
-copy common\strobe_gen.v 12_lab6_led_matrix\DeSim\Project
+copy common\strobe_gen.v 12_led_matrix\DeSim\Project

@@ -6,7 +6,7 @@ cd sim
 
 rem compile verilog files for simulation
 
-iverilog -o shift_reg.out -s simple_reg_tb ../../shift_reg.v ../shift_reg_tb.v
+iverilog -o shift_reg.out -s simple_reg_tb ../../shift_reg.v ../testbench.v
 
 rem run the simulation and finish on $stop
 

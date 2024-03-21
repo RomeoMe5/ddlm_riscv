@@ -5,7 +5,7 @@ module top (SW, KEY, LEDR);
 
     output wire [9:0] LEDR;     // DE-series LEDs   
 
-    timer lab6 (KEY[0], SW[0], LEDR[7:0], LEDR[9:8]);
+    timer dut (KEY[0], SW[0], LEDR[7:0], LEDR[9:8]);
  
 endmodule
 

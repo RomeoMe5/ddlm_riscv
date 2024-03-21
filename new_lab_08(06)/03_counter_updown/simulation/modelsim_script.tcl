@@ -4,7 +4,7 @@ vlib work
 
 # compile all the Verilog sources
 
-vlog ../../lab6.v
+vlog ../../cnt_updown.v
 vlog ../testbench.v
 
 

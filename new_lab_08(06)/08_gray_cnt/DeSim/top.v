@@ -5,7 +5,7 @@ module top (SW, KEY, LEDR);
 
     output wire [9:0] LEDR;     // DE-series LEDs   
 
-    gray_cnt lab6 (KEY[0], SW[0], KEY[2], LEDR[3:0]);
+    gray_cnt dut (KEY[0], SW[0], KEY[2], LEDR[3:0]);
  
 endmodule
 

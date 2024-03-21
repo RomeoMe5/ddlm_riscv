@@ -5,7 +5,7 @@ module top (SW, KEY, LEDR);
 
     output wire [9:0] LEDR;     // DE-series LEDs   
 
-    crc_ser lab6 (SW[2], KEY[0], SW[0], KEY[2], LEDR[4:0]);
+    crc_ser dut (SW[2], KEY[0], SW[0], KEY[2], LEDR[4:0]);
  
 endmodule
 

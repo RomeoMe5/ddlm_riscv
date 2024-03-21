@@ -6,11 +6,11 @@ cd sim
 
 rem compile verilog files for simulation
 
-iverilog -o lab6.out -s testbench ../../lab6.v ../testbench.v
+iverilog -o tone_gen.out -s testbench ../../tone_gen.v ../testbench.v
 
 rem run the simulation and finish on $stop
 
-vvp -l lab6.log -n lab6.out
+vvp -l tone_gen.log -n tone_gen.out
 
 rem show the simulation results in GTKwave
 

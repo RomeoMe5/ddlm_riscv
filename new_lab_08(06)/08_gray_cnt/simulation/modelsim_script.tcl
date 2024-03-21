@@ -5,7 +5,7 @@ vlib work
 
 # compile all the Verilog sources
 
-vlog ../../lab6.v
+vlog ../../gray_cnt.v
 vlog ../testbench.v
 
 # open the testbench module for simulation

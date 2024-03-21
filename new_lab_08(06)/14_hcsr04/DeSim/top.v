@@ -5,7 +5,7 @@ module top (SW, KEY, LEDR);
 
     output wire [9:0] LEDR;     // DE-series LEDs   
 
-    hcsr04 lab6 (KEY[0], SW[0], KEY[2], LEDR[9], LEDR[7:0]);
+    hcsr04 dut (KEY[0], SW[0], KEY[2], LEDR[9], LEDR[7:0]);
  
 endmodule
 

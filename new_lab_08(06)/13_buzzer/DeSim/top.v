@@ -5,7 +5,7 @@ module top (SW, KEY, LEDR);
 
     output wire [9:0] LEDR;     // DE-series LEDs   
 
-    tone_gen lab6 (KEY[0], SW[0], LEDR[0]);
+    tone_gen dut (KEY[0], SW[0], LEDR[0]);
  
 endmodule
 

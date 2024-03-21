@@ -5,7 +5,7 @@ module top (SW, KEY, LEDR);
 
     output wire [9:0] LEDR;     // DE-series LEDs   
 
-    cnt_updown lab6 (KEY[0], SW[0], KEY[2], LEDR);
+    cnt_updown dut (KEY[0], SW[0], KEY[2], LEDR);
  
 endmodule
 

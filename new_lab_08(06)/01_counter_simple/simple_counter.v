@@ -19,6 +19,3 @@ module simple_counter
      end
    
 endmodule // simple_counter
-
-   
-

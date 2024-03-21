@@ -4,50 +4,27 @@ set_global_assignment -name NUM_PARALLEL_PROCESSORS 4
 
 set_global_assignment -name TOP_LEVEL_ENTITY de10_lite
 
-set_global_assignment -name VERILOG_FILE lab6.v
-set_global_assignment -name VERILOG_FILE ../../common/led7.v
-set_global_assignment -name VERILOG_FILE ../lab6.v
+set_global_assignment -name VERILOG_FILE de10_lite.v
+set_global_assignment -name VERILOG_FILE ../../../../common/strobe_gen.v
+set_global_assignment -name VERILOG_FILE ../../../../06_shift_reg/shift_reg.v
 
-set_global_assignment -name SDC_FILE lab6.sdc
+set_global_assignment -name SDC_FILE de10_lite.sdc
 
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CLOCK*
 set_instance_assignment -name IO_STANDARD "3.3 V SCHMITT TRIGGER" -to KEY*
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to HEX*
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO*
 #============================================================
 # CLOCK
 #============================================================
+
 set_location_assignment PIN_P11 -to CLOCK_50
 
 #============================================================
 # KEY
 #============================================================
+
 set_location_assignment PIN_B8 -to KEY[0]
-
-#============================================================
-# HEX0
-#============================================================
-set_location_assignment PIN_C14 -to HEX0[0]
-set_location_assignment PIN_E15 -to HEX0[1]
-set_location_assignment PIN_C15 -to HEX0[2]
-set_location_assignment PIN_C16 -to HEX0[3]
-set_location_assignment PIN_E16 -to HEX0[4]
-set_location_assignment PIN_D17 -to HEX0[5]
-set_location_assignment PIN_C17 -to HEX0[6]
-set_location_assignment PIN_D15 -to HEX0[7]
-
-#============================================================
-# HEX1
-#============================================================
-set_location_assignment PIN_C18 -to HEX1[0]
-set_location_assignment PIN_D18 -to HEX1[1]
-set_location_assignment PIN_E18 -to HEX1[2]
-set_location_assignment PIN_B16 -to HEX1[3]
-set_location_assignment PIN_A17 -to HEX1[4]
-set_location_assignment PIN_A18 -to HEX1[5]
-set_location_assignment PIN_B17 -to HEX1[6]
-set_location_assignment PIN_A16 -to HEX1[7]
-
+set_location_assignment PIN_A7 -to KEY[1]
 
 #============================================================
 # GPIO, GPIO connect to GPIO Default
@@ -88,7 +65,5 @@ set_location_assignment PIN_AB3 -to GPIO[32]
 set_location_assignment PIN_Y3 -to GPIO[33]
 set_location_assignment PIN_AB2 -to GPIO[34]
 set_location_assignment PIN_AA2 -to GPIO[35]
-#============================================================
 
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
-

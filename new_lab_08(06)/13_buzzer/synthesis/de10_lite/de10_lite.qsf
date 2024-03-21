@@ -4,12 +4,12 @@ set_global_assignment -name NUM_PARALLEL_PROCESSORS 4
 
 set_global_assignment -name TOP_LEVEL_ENTITY de10_lite
 
-set_global_assignment -name SYSTEMVERILOG_FILE lab6.sv
-set_global_assignment -name VERILOG_FILE ../lab6.v
-set_global_assignment -name SYSTEMVERILOG_FILE ../melody.sv
-set_global_assignment -name VERILOG_FILE ../../common/strobe_gen.v
+set_global_assignment -name SYSTEMVERILOG_FILE de10_lite.sv
+set_global_assignment -name VERILOG_FILE ../../../tone_gen.v
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../melody.sv
+set_global_assignment -name VERILOG_FILE ../../../../common/strobe_gen.v
 
-set_global_assignment -name SDC_FILE lab6.sdc
+set_global_assignment -name SDC_FILE de10_lite.sdc
 
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CLOCK*
 set_instance_assignment -name IO_STANDARD "3.3 V SCHMITT TRIGGER" -to KEY*

@@ -5,7 +5,7 @@ module top (SW, KEY, LEDR);
 
     output wire [9:0] LEDR;     // DE-series LEDs   
 
-    pwm lab6 (KEY[0], KEY[2], SW, LEDR);
+    pwm dut (KEY[0], KEY[2], SW, LEDR);
  
 endmodule
 

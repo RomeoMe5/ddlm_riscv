@@ -1,5 +1,3 @@
-
-
 module shift_reg
 #(
   parameter WIDTH=8

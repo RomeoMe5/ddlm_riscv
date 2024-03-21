@@ -6,7 +6,7 @@ cd sim
 
 rem compile verilog files for simulation
 
-iverilog -o lfsr.out -s lfsr_tb ../../lfsr.v ../lfsr_tb.v
+iverilog -o lfsr.out -s lfsr_tb ../../lfsr.v ../testbench.v
 
 rem run the simulation and finish on $stop
 

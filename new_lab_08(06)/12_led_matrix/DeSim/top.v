@@ -5,7 +5,7 @@ module top (CLOCK_50, KEY, GPIO);
 
     inout wire [31:0] GPIO;     // DE-series LEDs   
 
-    de10_lite lab6 (CLOCK_50, KEY[1:0], GPIO);
+    de10_lite dut (CLOCK_50, KEY[1:0], GPIO);
  
 endmodule
 

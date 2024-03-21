@@ -5,9 +5,9 @@ set_global_assignment -name NUM_PARALLEL_PROCESSORS 4
 set_global_assignment -name TOP_LEVEL_ENTITY de10_lite
 
 set_global_assignment -name VERILOG_FILE de10_lite.v
-set_global_assignment -name VERILOG_FILE ../../cnt_load.v
-set_global_assignment -name VERILOG_FILE ../../../common/led7.v
-set_global_assignment -name VERILOG_FILE ../../../common/clk_divider.v
+set_global_assignment -name VERILOG_FILE ../../../cnt_load.v
+set_global_assignment -name VERILOG_FILE ../../../../common/led7.v
+set_global_assignment -name VERILOG_FILE ../../../../common/clk_divider.v
 
 set_global_assignment -name SDC_FILE de10_lite.sdc
 
