@@ -23,7 +23,7 @@ endmodule
 
 module timeQuest_wrapper(clock,SW,LED,enable);
 	input clock,enable;
-	input [9:0] SW;
+	input  [9:0] SW;
 	output [3:0] LED;
  
 	reg [9:0] SW_reg;
@@ -48,9 +48,9 @@ endmodule
 
 module anybit_enc
 (
-    input   [ 1:0]  KEY,
-    input   [ 9:0]  SW,
-    output  [ 9:0]  LEDR
+    input   [1:0]  KEY,
+    input   [9:0]  SW,
+    output  [9:0]  LEDR
 );
 
 	//b12_anybit_enc  (SW,LEDR,KEY[0]);
