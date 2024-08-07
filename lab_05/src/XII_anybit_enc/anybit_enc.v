@@ -31,7 +31,8 @@ module timeQuest_wrapper(clock,SW,LED,enable);
  
 	wire [3:0] LED_wire;
 	wire [9:0] SW_wire;
-	assign SW_wire = SW_reg;
+	assign SW_wire = SW;
+	assign LED = LED_reg;	
 	
 	// creating our test instance
 	b12_anybit_enc (SW_reg,LED_wire,enable);
@@ -39,10 +40,9 @@ module timeQuest_wrapper(clock,SW,LED,enable);
    // clock needed to determine at which step register was filled with data
 	always @(posedge clock)
 		begin
-			SW_reg <= SW; // avoiding race and latch by setting '<=' instead of '='
+			SW_reg <= SW_wire; // avoiding race and latch by setting '<=' instead of '='
 			LED_reg<=LED_wire;
 		end
-	assign LED = LED_reg;
 endmodule
 
 
