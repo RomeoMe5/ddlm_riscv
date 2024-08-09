@@ -35,7 +35,7 @@ genvar i;
 generate
     for(i=0;i<INPUT_CHANNELS;i=i+1) 
     begin: gen_array
-        assign y = sel[i] ? data[((i+1)*DATA_WIDTH)-1:(i*DATA_WIDTH)] : {DATA_WIDTH{1'bx}};
+        assign y = sel[i] ? data[((i+1)*DATA_WIDTH)-1:(i*DATA_WIDTH)] : {DATA_WIDTH{1'bz}};
     end
 endgenerate
 
