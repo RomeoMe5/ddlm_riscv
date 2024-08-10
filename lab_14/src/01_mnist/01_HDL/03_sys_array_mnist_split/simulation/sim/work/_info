@@ -1,0 +1,296 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Github/ddlm_riscv/lab_14/src/01_mnist/01_HDL/03_sys_array_mnist_split/simulation/sim
+vmax_num
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1723285083
+!i10b 1
+!s100 0^NfRG?9el7BI[CT8_iD;1
+IT[hH=hF67D_IRDPWMQ9_<0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 max_num_sv_unit
+S1
+R0
+w1704724009
+8../../max_num.sv
+F../../max_num.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1723285083.000000
+Z6 !s107 ../../sys_array_split.sv|../../max_num.sv|../../seg7_tohex_mnist.sv|../../rom.sv|
+Z7 !s90 -reportprogress|300|+incdir+./|../../rom.sv|../../seg7_tohex_mnist.sv|../../max_num.sv|../../sys_array_split.sv|
+!i113 1
+Z8 !s92 +incdir+./
+Z9 tCvgOpt 0
+vrom
+R1
+R2
+!i10b 1
+!s100 OPkbeiWfVi5[?81J8N^iQ2
+IPAYk0>f[L2Xh8B4a<zadb3
+R3
+!s105 rom_sv_unit
+S1
+R0
+w1704829921
+8../../rom.sv
+F../../rom.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+vseg7_tohex_mnist
+R1
+R2
+!i10b 1
+!s100 b5=9N?<32LX7mUoJNj2dI0
+I_7KVjOIE9T>8K_K:hBNi60
+R3
+!s105 seg7_tohex_mnist_sv_unit
+S1
+R0
+w1704697200
+8../../seg7_tohex_mnist.sv
+F../../seg7_tohex_mnist.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+R9
+vshift_reg
+R1
+R2
+!i10b 1
+!s100 GkciLfCg`5dK_EK?1Y=Fm3
+I20S@C:ZW5``;B`h0I:?d71
+R3
+!s105 shift_reg_sv_unit
+S1
+R0
+w1704828452
+8../../shift_reg.sv
+F../../shift_reg.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z10 !s108 1723285082.000000
+Z11 !s107 ../../shift_reg.sv|../../sys_array_cell.sv|../../sys_array_basic_split.sv|../../sys_array_fetcher_split.sv|../../sys_array_wrapper_mnist_split.sv|../tb_sys_array_wrapper_mnist_split.sv|
+Z12 !s90 -reportprogress|300|+incdir+./|../tb_sys_array_wrapper_mnist_split.sv|../../sys_array_wrapper_mnist_split.sv|../../sys_array_fetcher_split.sv|../../sys_array_basic_split.sv|../../sys_array_cell.sv|../../shift_reg.sv|
+!i113 1
+R8
+R9
+vsys_array_basic_split
+R1
+R2
+!i10b 1
+!s100 nLWieSD>^`]g_o9RT[`dK2
+IoljhVnE5=VlJ38m>aPDNE2
+R3
+!s105 sys_array_basic_split_sv_unit
+S1
+R0
+w1704887334
+8../../sys_array_basic_split.sv
+F../../sys_array_basic_split.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R8
+R9
+vsys_array_cell
+R1
+R2
+!i10b 1
+!s100 Zl@^DCmD3C9Ab`o=iB;cK2
+I5b?FgoP714_C@LR]4f4eO2
+R3
+!s105 sys_array_cell_sv_unit
+S1
+R0
+w1704824946
+8../../sys_array_cell.sv
+F../../sys_array_cell.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R8
+R9
+vsys_array_fetcher_split
+R1
+DXx4 work 31 sys_array_fetcher_split_sv_unit 0 22 2AhcO9O?chKSic_ZX@3PJ3
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 i8:D=n:`>cTN@lGJa1PC32
+I7_]iWYY0S5O^ZE9gJDR<M1
+!s105 sys_array_fetcher_split_sv_unit
+S1
+R0
+Z13 w1705234502
+Z14 8../../sys_array_fetcher_split.sv
+Z15 F../../sys_array_fetcher_split.sv
+Z16 L0 13
+R4
+R10
+R11
+R12
+!i113 1
+R8
+R9
+Xsys_array_fetcher_split_sv_unit
+R1
+V2AhcO9O?chKSic_ZX@3PJ3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ]hk`UdbZ<DeBgaNI8o<J90
+I2AhcO9O?chKSic_ZX@3PJ3
+!i103 1
+S1
+R0
+R13
+R14
+R15
+L0 3
+R4
+R10
+R11
+R12
+!i113 1
+R8
+R9
+vsys_array_split
+R1
+DXx4 work 23 sys_array_split_sv_unit 0 22 f?T=NNXD`DSFAVIXm@Bi20
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 :HchKO6CDN3lbRFLZiWJN2
+IDcYZ4[5L;8E<R<al`i92]1
+!s105 sys_array_split_sv_unit
+S1
+R0
+Z17 w1704919748
+Z18 8../../sys_array_split.sv
+Z19 F../../sys_array_split.sv
+R16
+R4
+R5
+R6
+R7
+!i113 1
+R8
+R9
+Xsys_array_split_sv_unit
+R1
+Vf?T=NNXD`DSFAVIXm@Bi20
+r1
+!s85 0
+31
+!i10b 1
+!s100 YN^bSOBTZ1lF[ofK951nF3
+If?T=NNXD`DSFAVIXm@Bi20
+!i103 1
+S1
+R0
+R17
+R18
+R19
+L0 3
+R4
+R5
+R6
+R7
+!i113 1
+R8
+R9
+vsys_array_wrapper_mnist_split
+R1
+Z20 !s110 1723285082
+!i10b 1
+!s100 4XBbOKGehhb1bH^lBFM@F0
+IJdRI;ca8oD?gh=ZXfJkzB0
+R3
+!s105 sys_array_wrapper_mnist_split_sv_unit
+S1
+R0
+w1723284499
+8../../sys_array_wrapper_mnist_split.sv
+F../../sys_array_wrapper_mnist_split.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R8
+R9
+vtb_sys_array_wrapper_mnist_split
+R1
+R20
+!i10b 1
+!s100 ^k71d?D2kzK4Jige15RJk0
+I1[ncj3ig=P<IZhNBCLzUT0
+R3
+!s105 tb_sys_array_wrapper_mnist_split_sv_unit
+S1
+R0
+w1723285078
+8../tb_sys_array_wrapper_mnist_split.sv
+F../tb_sys_array_wrapper_mnist_split.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R8
+R9

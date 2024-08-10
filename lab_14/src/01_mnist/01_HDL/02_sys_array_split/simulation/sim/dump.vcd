@@ -1,0 +1,307 @@
+$date
+	Sat Aug 10 13:04:52 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	100ps
+$end
+
+$scope module tb_sys_array_split $end
+$var parameter 32 ! ARRAY_A_W $end
+$var parameter 32 " ARRAY_A_L $end
+$var parameter 32 # ARRAY_W_W $end
+$var parameter 32 $ ARRAY_W_L $end
+$var parameter 32 % ARRAY_W $end
+$var parameter 32 & ARRAY_L $end
+$var parameter 32 ' ARRAY_MAX_A_W $end
+$var parameter 32 ( OUT_SIZE $end
+$var reg 1 ) clk $end
+$var reg 1 * reset_n $end
+$var reg 1 + ready $end
+$var reg 1 , start $end
+$var wire 1 - first_none [7] $end
+$var wire 1 . first_none [6] $end
+$var wire 1 / first_none [5] $end
+$var wire 1 0 first_none [4] $end
+$var wire 1 1 first_none [3] $end
+$var wire 1 2 first_none [2] $end
+$var wire 1 3 first_none [1] $end
+$var wire 1 4 first_none [0] $end
+$var wire 1 5 last [7] $end
+$var wire 1 6 last [6] $end
+$var wire 1 7 last [5] $end
+$var wire 1 8 last [4] $end
+$var wire 1 9 last [3] $end
+$var wire 1 : last [2] $end
+$var wire 1 ; last [1] $end
+$var wire 1 < last [0] $end
+
+$scope module systolic_array_split $end
+$var parameter 32 = ARRAY_W $end
+$var parameter 32 > ARRAY_L $end
+$var parameter 32 ? ARRAY_MAX_A_W $end
+$var parameter 32 @ OUT_SIZE $end
+$var wire 1 A clk $end
+$var wire 1 B reset_n $end
+$var wire 1 C start $end
+$var wire 1 D ARRAY_W_W [9] $end
+$var wire 1 E ARRAY_W_W [8] $end
+$var wire 1 F ARRAY_W_W [7] $end
+$var wire 1 G ARRAY_W_W [6] $end
+$var wire 1 H ARRAY_W_W [5] $end
+$var wire 1 I ARRAY_W_W [4] $end
+$var wire 1 J ARRAY_W_W [3] $end
+$var wire 1 K ARRAY_W_W [2] $end
+$var wire 1 L ARRAY_W_W [1] $end
+$var wire 1 M ARRAY_W_W [0] $end
+$var wire 1 N ARRAY_W_L [9] $end
+$var wire 1 O ARRAY_W_L [8] $end
+$var wire 1 P ARRAY_W_L [7] $end
+$var wire 1 Q ARRAY_W_L [6] $end
+$var wire 1 R ARRAY_W_L [5] $end
+$var wire 1 S ARRAY_W_L [4] $end
+$var wire 1 T ARRAY_W_L [3] $end
+$var wire 1 U ARRAY_W_L [2] $end
+$var wire 1 V ARRAY_W_L [1] $end
+$var wire 1 W ARRAY_W_L [0] $end
+$var wire 1 X ARRAY_A_W [9] $end
+$var wire 1 Y ARRAY_A_W [8] $end
+$var wire 1 Z ARRAY_A_W [7] $end
+$var wire 1 [ ARRAY_A_W [6] $end
+$var wire 1 \ ARRAY_A_W [5] $end
+$var wire 1 ] ARRAY_A_W [4] $end
+$var wire 1 ^ ARRAY_A_W [3] $end
+$var wire 1 _ ARRAY_A_W [2] $end
+$var wire 1 ` ARRAY_A_W [1] $end
+$var wire 1 a ARRAY_A_W [0] $end
+$var wire 1 b ARRAY_A_L [9] $end
+$var wire 1 c ARRAY_A_L [8] $end
+$var wire 1 d ARRAY_A_L [7] $end
+$var wire 1 e ARRAY_A_L [6] $end
+$var wire 1 f ARRAY_A_L [5] $end
+$var wire 1 g ARRAY_A_L [4] $end
+$var wire 1 h ARRAY_A_L [3] $end
+$var wire 1 i ARRAY_A_L [2] $end
+$var wire 1 j ARRAY_A_L [1] $end
+$var wire 1 k ARRAY_A_L [0] $end
+$var reg 1 l ready $end
+$var reg 8 m first_none [7:0] $end
+$var reg 8 n last [7:0] $end
+$var reg 10 o cnt [9:0] $end
+$var reg 10 p cur [9:0] $end
+$upscope $end
+$upscope $end
+
+$scope begin tb_sys_array_split_sv_unit $end
+$upscope $end
+
+$scope begin std $end
+$upscope $end
+
+$scope begin sys_array_split_sv_unit $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0)
+0*
+x+
+0,
+xl
+bx m
+bx n
+bx o
+bx p
+b101 !
+b10 "
+b10 #
+b101 $
+b100 %
+b100 &
+b100 '
+b1010 (
+b100 =
+b100 >
+b100 ?
+b1010 @
+x4
+x3
+x2
+x1
+x0
+x/
+x.
+x-
+x<
+x;
+x:
+x9
+x8
+x7
+x6
+x5
+0A
+0B
+0C
+0M
+1L
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+0D
+1W
+0V
+1U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+1a
+0`
+1_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+0k
+1j
+0i
+0h
+0g
+0f
+0e
+0d
+0c
+0b
+$end
+#100
+1)
+1A
+b0 o
+b0 p
+0l
+b0 n
+b0 m
+0+
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0<
+0;
+0:
+09
+08
+07
+06
+05
+#200
+1*
+0)
+1B
+0A
+#300
+1)
+1A
+b1 o
+#400
+1,
+0)
+1C
+0A
+#500
+1)
+1A
+b0 o
+#600
+0,
+0)
+0C
+0A
+#700
+1)
+1A
+b1 o
+#800
+0)
+0A
+#900
+1)
+1A
+b11 o
+b1 p
+#1000
+0)
+0A
+#1100
+1)
+1A
+b101 o
+b10 p
+#1200
+0)
+0A
+#1300
+1)
+1A
+b111 o
+b11 p
+#1400
+0)
+0A
+#1500
+1)
+1A
+b11 m
+b100 p
+14
+13
+#1600
+0)
+0A
+#1700
+1)
+1A
+b101 p
+#1800
+0)
+0A
+#1900
+1)
+1A
+b110 p
+#2000
+0)
+0A
+#2100
+1)
+1A
+b111 p
+#2200
+0)
+0A
+#2300
+1)
+1A
+1l
+b111 n
+1+
+1<
+1;
+1:

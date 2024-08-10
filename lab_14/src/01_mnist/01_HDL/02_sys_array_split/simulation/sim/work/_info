@@ -1,0 +1,104 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Github/ddlm_riscv/lab_14/src/01_mnist/01_HDL/02_sys_array_split/simulation/sim
+vsys_array_split
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+DXx4 work 23 sys_array_split_sv_unit 0 22 lB<ZdLL:MWU^Mf[PQL=Sh0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 :HchKO6CDN3lbRFLZiWJN2
+IDcYZ4[5L;8E<R<al`i92]1
+!s105 sys_array_split_sv_unit
+S1
+R0
+Z3 w1704919748
+Z4 8../../sys_array_split.sv
+Z5 F../../sys_array_split.sv
+L0 13
+Z6 OV;L;10.5b;63
+Z7 !s108 1723284563.000000
+Z8 !s107 ../../sys_array_split.sv|../tb_sys_array_split.sv|
+Z9 !s90 -reportprogress|300|+incdir+./|../tb_sys_array_split.sv|../../sys_array_split.sv|
+!i113 1
+Z10 !s92 +incdir+./
+Z11 tCvgOpt 0
+Xsys_array_split_sv_unit
+R1
+VlB<ZdLL:MWU^Mf[PQL=Sh0
+r1
+!s85 0
+31
+!i10b 1
+!s100 Wm0Zzf0P?LINKM`??QBBg0
+IlB<ZdLL:MWU^Mf[PQL=Sh0
+!i103 1
+S1
+R0
+R3
+R4
+R5
+L0 3
+R6
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vtb_sys_array_split
+R1
+DXx4 work 26 tb_sys_array_split_sv_unit 0 22 EMQgo74_A`eSIaQTkX3@T1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 ]1abPZ:E93A_J?MW92[nm2
+IUKUNY`GkU7dng7ZB<61Fh2
+!s105 tb_sys_array_split_sv_unit
+S1
+R0
+Z12 w1704919777
+Z13 8../tb_sys_array_split.sv
+Z14 F../tb_sys_array_split.sv
+L0 15
+R6
+R7
+R8
+R9
+!i113 1
+R10
+R11
+Xtb_sys_array_split_sv_unit
+R1
+VEMQgo74_A`eSIaQTkX3@T1
+r1
+!s85 0
+31
+!i10b 1
+!s100 76LNjRjgDTTM0400Ll`gl1
+IEMQgo74_A`eSIaQTkX3@T1
+!i103 1
+S1
+R0
+R12
+R13
+R14
+L0 5
+R6
+R7
+R8
+R9
+!i113 1
+R10
+R11

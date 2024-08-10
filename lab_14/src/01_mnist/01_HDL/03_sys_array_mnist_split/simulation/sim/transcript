@@ -1,0 +1,165 @@
+# do ../modelsim_script.tcl
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:18:02 on Aug 10,2024
+# vlog -reportprogress 300 "+incdir+./" ../tb_sys_array_wrapper_mnist_split.sv ../../sys_array_wrapper_mnist_split.sv ../../sys_array_fetcher_split.sv ../../sys_array_basic_split.sv ../../sys_array_cell.sv ../../shift_reg.sv 
+# -- Compiling module tb_sys_array_wrapper_mnist_split
+# -- Compiling module sys_array_wrapper_mnist_split
+# -- Compiling package sys_array_fetcher_split_sv_unit
+# -- Compiling module sys_array_fetcher_split
+# -- Compiling module sys_array_basic_split
+# -- Compiling module sys_array_cell
+# -- Compiling module shift_reg
+# 
+# Top level modules:
+# 	tb_sys_array_wrapper_mnist_split
+# End time: 13:18:03 on Aug 10,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:18:03 on Aug 10,2024
+# vlog -reportprogress 300 "+incdir+./" ../../rom.sv ../../seg7_tohex_mnist.sv ../../max_num.sv ../../sys_array_split.sv 
+# -- Compiling module rom
+# -- Compiling module seg7_tohex_mnist
+# -- Compiling module max_num
+# -- Compiling package sys_array_split_sv_unit
+# -- Compiling module sys_array_split
+# 
+# Top level modules:
+# 	rom
+# 	seg7_tohex_mnist
+# 	max_num
+# 	sys_array_split
+# End time: 13:18:03 on Aug 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt work.tb_sys_array_wrapper_mnist_split 
+# Start time: 13:18:03 on Aug 10,2024
+# Loading sv_std.std
+# Loading work.tb_sys_array_wrapper_mnist_split
+# Loading work.sys_array_wrapper_mnist_split
+# Loading work.rom
+# Loading work.sys_array_fetcher_split_sv_unit
+# Loading work.sys_array_fetcher_split
+# Loading work.sys_array_split_sv_unit
+# Loading work.sys_array_split
+# Loading work.sys_array_basic_split
+# Loading work.max_num
+# Loading work.seg7_tohex_mnist
+# Loading work.sys_array_cell
+# Loading work.shift_reg
+# ** Warning: (vsim-3015) ../../sys_array_fetcher_split.sv(59): [PCDPC] - Port size (10) does not match connection size (32) for port 'ARRAY_W_W'. The port definition is at: ../../sys_array_split.sv(22).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/u_sys_array_split1 File: ../../sys_array_split.sv
+# ** Warning: (vsim-3015) ../../sys_array_fetcher_split.sv(59): [PCDPC] - Port size (10) does not match connection size (32) for port 'ARRAY_W_L'. The port definition is at: ../../sys_array_split.sv(23).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/u_sys_array_split1 File: ../../sys_array_split.sv
+# ** Warning: (vsim-3015) ../../sys_array_fetcher_split.sv(59): [PCDPC] - Port size (10) does not match connection size (32) for port 'ARRAY_A_W'. The port definition is at: ../../sys_array_split.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/u_sys_array_split1 File: ../../sys_array_split.sv
+# ** Warning: (vsim-3015) ../../sys_array_fetcher_split.sv(59): [PCDPC] - Port size (10) does not match connection size (32) for port 'ARRAY_A_L'. The port definition is at: ../../sys_array_split.sv(25).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/u_sys_array_split1 File: ../../sys_array_split.sv
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_reads_shift_reg[0]/reads File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_write'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_out'.
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_reads_shift_reg[1]/reads File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_write'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_out'.
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_reads_shift_reg[2]/reads File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_write'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_out'.
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_reads_shift_reg[3]/reads File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_write'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_out'.
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_reads_shift_reg[4]/reads File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_write'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_out'.
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_reads_shift_reg[5]/reads File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_write'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_out'.
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_reads_shift_reg[6]/reads File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_write'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_out'.
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_reads_shift_reg[7]/reads File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_write'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_out'.
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_reads_shift_reg[8]/reads File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_write'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_out'.
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_reads_shift_reg[9]/reads File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_write'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_out'.
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_reads_shift_reg[10]/reads File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_write'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_out'.
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_reads_shift_reg[11]/reads File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_write'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_out'.
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_reads_shift_reg[12]/reads File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_write'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(89): [TFMPC] - Missing connection for port 'data_out'.
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_writes_shift_reg[0]/writes File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Missing connection for port 'data_in'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Missing connection for port 'data_read'.
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_writes_shift_reg[1]/writes File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Missing connection for port 'data_in'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Missing connection for port 'data_read'.
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_writes_shift_reg[2]/writes File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Missing connection for port 'data_in'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Missing connection for port 'data_read'.
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_writes_shift_reg[3]/writes File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Missing connection for port 'data_in'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Missing connection for port 'data_read'.
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_writes_shift_reg[4]/writes File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Missing connection for port 'data_in'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Missing connection for port 'data_read'.
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_writes_shift_reg[5]/writes File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Missing connection for port 'data_in'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Missing connection for port 'data_read'.
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_writes_shift_reg[6]/writes File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Missing connection for port 'data_in'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Missing connection for port 'data_read'.
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_writes_shift_reg[7]/writes File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Missing connection for port 'data_in'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Missing connection for port 'data_read'.
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_writes_shift_reg[8]/writes File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Missing connection for port 'data_in'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Missing connection for port 'data_read'.
+# ** Warning: (vsim-3017) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Too few port connections. Expected 7, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split/sys_array_wrapper_mnist0/fetching_unit/generate_writes_shift_reg[9]/writes File: ../../shift_reg.sv
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Missing connection for port 'data_in'.
+# ** Warning: (vsim-3722) ../../sys_array_fetcher_split.sv(104): [TFMPC] - Missing connection for port 'data_read'.
+# 1
+# 1
+# Image #          0 is 0
+# Image #          1 is 1
+# Image #          2 is 2
+# Image #          3 is 3
+# Image #          4 is 4
+# Image #          5 is 5
+# Image #          6 is 6
+# Image #          7 is 7
+# Image #          8 is 0
+# Image #          9 is 1
+# ** Note: $finish    : ../tb_sys_array_wrapper_mnist_split.sv(75)
+#    Time: 2099500 ns  Iteration: 0  Instance: /tb_sys_array_wrapper_mnist_split
+# 1
+# Break in Module tb_sys_array_wrapper_mnist_split at ../tb_sys_array_wrapper_mnist_split.sv line 75
+# End time: 13:18:26 on Aug 10,2024, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 73

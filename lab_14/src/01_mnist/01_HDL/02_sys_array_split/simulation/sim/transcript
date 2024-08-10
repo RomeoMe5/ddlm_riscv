@@ -1,0 +1,44 @@
+# do ../modelsim_script.tcl
+# ** Error: (vlib-35) Failed to create directory "work".
+# File exists. (errno = EEXIST)
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:09:23 on Aug 10,2024
+# vlog -reportprogress 300 "+incdir+./" ../tb_sys_array_split.sv ../../sys_array_split.sv 
+# -- Compiling package tb_sys_array_split_sv_unit
+# -- Compiling module tb_sys_array_split
+# -- Compiling package sys_array_split_sv_unit
+# -- Compiling module sys_array_split
+# 
+# Top level modules:
+# 	tb_sys_array_split
+# End time: 13:09:23 on Aug 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt work.tb_sys_array_split 
+# Start time: 13:09:23 on Aug 10,2024
+# Loading sv_std.std
+# Loading work.tb_sys_array_split_sv_unit
+# Loading work.tb_sys_array_split
+# Loading work.sys_array_split_sv_unit
+# Loading work.sys_array_split
+# ** Warning: (vsim-3015) ../tb_sys_array_split.sv(38): [PCDPC] - Port size (10) does not match connection size (32) for port 'ARRAY_W_W'. The port definition is at: ../../sys_array_split.sv(22).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_split/systolic_array_split File: ../../sys_array_split.sv
+# ** Warning: (vsim-3015) ../tb_sys_array_split.sv(38): [PCDPC] - Port size (10) does not match connection size (32) for port 'ARRAY_W_L'. The port definition is at: ../../sys_array_split.sv(23).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_split/systolic_array_split File: ../../sys_array_split.sv
+# ** Warning: (vsim-3015) ../tb_sys_array_split.sv(38): [PCDPC] - Port size (10) does not match connection size (32) for port 'ARRAY_A_W'. The port definition is at: ../../sys_array_split.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_split/systolic_array_split File: ../../sys_array_split.sv
+# ** Warning: (vsim-3015) ../tb_sys_array_split.sv(38): [PCDPC] - Port size (10) does not match connection size (32) for port 'ARRAY_A_L'. The port definition is at: ../../sys_array_split.sv(25).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_sys_array_split/systolic_array_split File: ../../sys_array_split.sv
+# 1
+# 1
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: vvzun  Host# End time: 13:09:35 on Aug 10,2024, Elapsed time: 0:04:45
+# Errors: 0, Warnings: 4
+"./wlfttr4q6r".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfttr4q6r
+# ** Note: $finish    : ../tb_sys_array_split.sv(72)
+#    Time: 240 ns  Iteration: 0  Instance: /tb_sys_array_split
+# 1
+# Break in Module tb_sys_array_split at ../tb_sys_array_split.sv line 72
+# End time: 13:09:33 on Aug 10,2024, Elapsed time: 0:00:10
+# Errors: 0, Warnings: 6
