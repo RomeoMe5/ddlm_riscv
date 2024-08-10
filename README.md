@@ -12,7 +12,7 @@ ISBN 978-5-93700-282-2**
 
 ## Книга на сайте издательства   
 <!-- Обновить ссылку на книгу в DMK Press -->    
-[https://dmkpress.com/catalog/electronics/circuit_design/](https://dmkpress.com/catalog/electronics/circuit_design/ "Купить книгу на сайте ДМК Пресс")      
+[Купить книгу на сайте ДМК Пресс](https://dmkpress.com/catalog/electronics/circuit_design/978-5-93700-282-2/)      
 
 ## Как работать с репозитарием
 
