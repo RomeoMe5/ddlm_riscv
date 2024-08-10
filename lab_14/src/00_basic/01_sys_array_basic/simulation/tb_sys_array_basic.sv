@@ -19,7 +19,6 @@ module tb_sys_array_basic #(
     input_data[1] = '{'h04, 'h05, 'h06};
     input_data[2] = '{'h07, 'h08, 'h09};
     input_data[3] = '{'h0A, 'h0B, 'h0C};
-    input_data[4] = '{'h0D, 'h0E, 'h0F};
   end
 
   sys_array_basic #(
