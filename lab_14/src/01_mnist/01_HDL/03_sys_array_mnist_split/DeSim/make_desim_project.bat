@@ -15,5 +15,8 @@ copy keyboard_interface.v Project\tb
 copy ps2_command_in.v Project\tb
 copy ps2_data_out.v Project\tb
 
+copy *.hex Project
+
+
 cd..
 copy *.sv DeSim\Project

@@ -64,7 +64,7 @@ rom_instance_bias
 genvar ii, jj;
 generate
     for (ii = 0; ii < ARRAY_A_L; ii++) begin : input_image_generation
-        assign input_image[0][ii] = images[{1'b0, image_num[2:0]}][ii];
+        assign input_image[0][ii] = images[image_num][ii];
     end
 endgenerate
 
