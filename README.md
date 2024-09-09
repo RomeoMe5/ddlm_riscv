@@ -3,7 +3,7 @@
 ## Исходные коды к главам книги      
 **Цифровой синтез: RISC-V / под общ. ред. А. Ю. Романова. – М.: ДМК Пресс, 2024. – 628 с. ISBN 978-5-93700-282-2**   
   
-**English reference: Romanov, A.Y. Digital design: RISC-V. – DMC Press, 2024. – 628 p.**  
+**English reference: Romanov, A.Y., et al. Digital design: RISC-V. – DMC Press, 2024. – 628 p.**  
 
 **Авторы**: Американов А. А., Антонов А. А., Барабанов А. В., [Жельнио С. Л.](https://github.com/zhelnio "zhelnio"), [Зунин В. В.](https://github.com/vvzunin "vvzunin"), Иванец С. А., Коробков М. А., Куделина Л. А., Кудрявцев И. А., Маршутина Е. Н., [Панчул Ю. В.](https://github.com/yuri-panchul "yuri-panchul"), [Романов А. Ю.](https://github.com/RomeoMe5 "RomeoMe5"), Романова И. И., Телятников А. А., Шуплецов М. С.   
 
